@@ -1,0 +1,68 @@
+/* ./src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@layer components {
+
+
+    body {
+        @apply font-bebas
+    }
+
+    * {
+        @apply m-0 p-0 box-border
+    }
+
+    .container {
+        @apply max-w-screen-lg px-6 m-auto
+    }
+
+    .header {
+        @apply my-6
+    }
+
+    .header__wrapper {
+        @apply flex justify-between
+    }
+
+    .header__name{
+        @apply min-w-100
+    }
+
+    .header__title {
+        @apply text-orange text-4xl
+    }
+
+    .header__components {
+        @apply text-orange-light
+    }
+
+    .header__nav {
+        @apply min-w-400
+    }
+
+    .header__list {
+        @apply flex justify-between items-center
+    }
+
+    .header__item {
+        @apply text-gray text-base p-2 cursor-pointer uppercase transition-colors duration-700
+    }
+
+    .header__block {
+        @apply bg-orange h-14 overflow-hidden
+    }
+
+    .header__adsolute {
+        @apply bg-orange-light
+    }
+
+    .header__current {
+        @apply text-2xl text-gray-lightest py-2.5 px-2.5
+    }
+
+
+}
