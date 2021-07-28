@@ -680,6 +680,7 @@ body {
 
 .header__block {
   height: 3.5rem;
+  overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgba(232, 96, 60, var(--tw-bg-opacity))
 }
