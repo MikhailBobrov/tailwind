@@ -56,7 +56,7 @@
         @apply bg-orange h-14 overflow-hidden
     }
 
-    .header__adsolute {
+    .header__absolute {
         @apply bg-orange-light
     }
 

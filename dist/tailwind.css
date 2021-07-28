@@ -685,7 +685,7 @@ body {
   background-color: rgba(232, 96, 60, var(--tw-bg-opacity))
 }
 
-.header__adsolute {
+.header__absolute {
   --tw-bg-opacity: 1;
   background-color: rgba(243, 175, 157, var(--tw-bg-opacity))
 }
