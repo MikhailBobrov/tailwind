@@ -57,7 +57,15 @@
     }
 
     .header__absolute {
-        @apply bg-orange-light
+        @apply bg-orange-light w-full h-14 ml-ml-102
+        /*inset-top-16*/
+        top-16
+    }
+
+    .header__absolute-2 {
+        @apply bg-orange-light w-full h-14 -top-14 ml-ml-943
+        /*inset-minus-top-14*/
+
     }
 
     .header__current {

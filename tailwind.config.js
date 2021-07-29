@@ -30,10 +30,20 @@ module.exports = {
 
       }
     },
-    extend: {},
+    extend: {
+      spacing: {
+        'ml-102': '-102%',
+        'ml-943': '943px',
+      }
+    },
     fontFamily: {
       'bebas': ['"bebas Neue"', 'cursive'],
-    }
+    },
+    // inset: {
+    //   'left' : '104%',
+    //   'top-16' : '4rem',
+    //   'minus-top-14' : '-3.5rem'
+    // }
   },
   variants: {
     extend: {},
