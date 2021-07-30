@@ -4,9 +4,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '960px'
+      'lit': '320px',
+      'sm': '480px',
+      'md': '768px',
+      'lg': '960px',
+      'lg-x' : '1200px'
+
     },
     minWidth: {
       '100' : '100px',
@@ -39,11 +42,6 @@ module.exports = {
     fontFamily: {
       'bebas': ['"bebas Neue"', 'cursive'],
     },
-    // inset: {
-    //   'left' : '104%',
-    //   'top-16' : '4rem',
-    //   'minus-top-14' : '-3.5rem'
-    // }
   },
   variants: {
     extend: {},

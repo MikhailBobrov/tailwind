@@ -15,12 +15,12 @@
 
     <header class="header">
         <div class="container">
-            <div class="header__wrapper">
+            <div class="header__wrapper lit:flex-col items-center lg:flex-row">
                 <div class="header__name">
                     <h1 class="header__title">JET<span class="header__components">RO</span></h1>
                 </div>
                 <div class="header__nav">
-                    <ul class="header__list">
+                    <ul class="header__list lit:flex-col sm:flex-row">
                         <li class="header__item group hover:text-orange"><a class="header__link" href="">Home</a></li>
                         <li class="header__item group hover:text-orange"><a class="header__link" href="">About <span class="header__span group-hover:text-orange-light ">US</span> </a></li>
                         <li class="header__item group hover:text-orange"><a class="header__link" href="">Blog</a></li>
@@ -31,8 +31,8 @@
             </div>
 
             <div class="header__block relative"><p class="header__current">Contact us</p></div>
-            <div class="header__absolute absolute"></div>
-            <div class="header__absolute-2 relative"></div>
+            <div class="header__absolute absolute lit:hidden lg-x:block"></div>
+            <div class="header__absolute-2 relative lit:hidden lg-x:block"></div>
         </div>
 
     </header>
